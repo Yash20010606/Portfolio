@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by Website.",
+    "skills": ["React", "Node"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "SDGP Group Project",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to give a better solution for domestic violence.",
+    "skills": ["Flutter", "Node Js"],
+    "source": "https://github.com/SDGP-CS-39-EmpowerME/SDGP-CS-39-EmpowerME.git"
+  },
+  {
+    "title": "Lesure park website",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made about the Lesure Park Using HTML & CSS. ",
+    "skills": ["HTML", "CSS", "JS"],
+    "source": "https://www.github.com"
+  },
+
+  {
+    "title": "Food Management System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn java and develop the GUI using JavaFx.",
+    "skills": ["Java"],
+    "source": "https://github.com/Yashini2001661/Food-Manegement-System.git"
+  },
+  {
+    "title": "Online Shopping System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn java and develop the GUI using Java Swing.",
+    "skills": ["Java"],
+    "source": "https://www.github.com"
+  },
+
+  {
+    "title": "Dentist website",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made about the Dentist website Using PHP & MySQL.",
+    "skills": ["PHP", "MySQL"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "FOODEAT",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the more about React language",
+    "skills": ["React", "Tailwind css"],
+    "source": "https://github.com/Yashini2001661/FOODEAT-.git"
+  },
+  {
+    "title": "Mastermind Game",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made about the Mastermind game Using Python. ",
+    "skills": ["Python"],
+    "source": "https://github.com/Yashini2001661/Master-Mind-Game.git"
+  },
+  {
+    "title": "Mark Progression System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn Python and develop the GUI using Swing ",
+    "skills": ["Python"],
+    "source": "https://github.com/Yashini2001661/Mark-Progression.git"
+  }
+]

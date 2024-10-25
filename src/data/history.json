@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "SLT",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "As a Software Engineer Intern at SLT, I specialize in full-stack development, designing user-friendly interfaces with Figma and conducting QA to ensure high performance and usability in our products."
+    ],
+    "imageSrc": "history/SLT.png"
+  },
+  {
+    "role": "Employee Seat Reservation System",
+    "organisation": "Frontend, Backend & DB",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
+    "experiences": [
+      "The project used BootStrap to create interactive user interfaces and used Laravel/PHP for Backend.",
+      "Use MySQL for Database"
+    ],
+    "imageSrc": "history/Laravel.png"
+  },
+  {
+    "role": "Domestic Violence & Evidence Gathering",
+    "organisation": "Mobile App",
+    "startDate": "Sep, 2023",
+    "endDate": "Mar, 2024",
+    "experiences": [
+      "Utilized front-end functionalities of the project using Flutter/Dart.",
+      "Implemented back-end user account management with Firebase.",
+      "Designed APIs using Node.js."
+    ],
+    "imageSrc": "history/Flutter.png"
+  }
+]
