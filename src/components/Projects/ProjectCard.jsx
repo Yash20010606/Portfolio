@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
@@ -16,13 +17,11 @@ export const ProjectCard = ({
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
+        {skills.map((skill, id) => (
+          <li key={id} className={styles.skill}>
+            {skill}
+          </li>
+        ))}
       </ul>
       <div className={styles.links}>
         <a href={source} className={styles.link}>
@@ -31,4 +30,15 @@ export const ProjectCard = ({
       </div>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    demo: PropTypes.string,
+    source: PropTypes.string.isRequired,
+  }).isRequired,
 };
